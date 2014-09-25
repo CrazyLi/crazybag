@@ -1,0 +1,158 @@
+/*work modules */
+
+.workmodule {
+   background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow:0 0 15px rgba(128, 78, 35, 0.3);
+    display: block;
+    margin: 25px auto 60px;
+    padding: 0;
+    width: 960px;
+	
+}
+
+.workmodule h1 {
+	color: #000000;
+    font-family: futura-pt-1,futura,arial,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+    padding: 0 0 15px;
+    
+    text-align: left;
+    text-transform: uppercase;
+    
+}
+
+.workmodule p {
+	font-size: 16px;
+    line-height: 24px;
+}
+
+.workleft {
+    display: block;
+    float: left;
+    padding: 20px 30px 15px;
+    width: 264px;
+}
+
+.workleft p {
+    font-size: 13px;
+    line-height: 24px;
+	}
+
+
+.workright {
+    float: left;
+    padding: 20px 50px 30px 30px;
+    width: 555px;
+    border-right: 1px dotted #CCCCCC;
+}
+
+
+
+.workimg {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px dotted #CCCCCC;
+    display: block;
+    padding: 15px;
+    width: 930px;
+	
+}
+
+/**NEW**/
+
+.workmodule {
+	margin-top: 75px;
+
+}
+
+.workright p {
+	margin-bottom: 15px;
+	
+}
+
+.workimages {
+	padding: 0 15px;
+	
+	border-top: 1px dotted #ccc;
+
+}
+
+.workimages li {
+	margin-top: 15px;
+
+}
+
+.worknav {
+	width: 930px;
+	display: block;
+	overflow: auto;
+	
+	padding: 15px;
+	margin-top: 15px;
+
+}			
+	
+.worknav p {
+	float: left;
+	width: 310px;
+}
+
+/*** isotope ***/
+
+.item {
+	width: 220px;
+	height: 220px;
+	display: block;
+	
+	background: #fff;
+	
+	border-radius: 110px;
+	margin: 10px 10px 50px 10px;
+	text-align: center;
+	
+	box-shadow: 0 0 15px rgba(128, 78, 35, 0.3);
+
+}
+
+.item:hover {
+	box-shadow: 0 0 15px rgba(128, 78, 35, 0.5);
+	
+}
+
+.item h1 {
+	margin-top: 15px;
+	color: #000;
+
+}
+
+#container a:link {
+	color: #000;
+
+}
+
+#filters {
+	width: 960px;
+	height: 45px;
+	display: block;
+	border-bottom: 4px double #ccc;
+	line-height: 40px;
+	margin: -55px auto 15px;
+
+}
+
+#filters li {
+	float: left;
+	margin: 0 15px;
+	width: 107px;
+	text-align: center;
+
+}
+
+#container {
+	clear: left;
+	width: 960px;
+	margin: auto;
+}
